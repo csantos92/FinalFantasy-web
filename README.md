@@ -5,7 +5,7 @@ Creación de una página web de prueba basada en Final Fantasy 7
 
 28/06/20
 
--Bloque de registro de noticias
+-Bloque de registro de noticias \n
 -Enlaces de redes sociales se abre en otra pestaña
 -Corregidos algunos bugs visuales
 -Cambio de algunos colores
