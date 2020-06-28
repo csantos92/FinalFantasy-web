@@ -163,7 +163,7 @@ aside img {
 footer {
     color: #2c5364;
     position: relative;
-    width: 99%;
+    width: 98.20%;
     margin: 10px;
     display: block;
     overflow: auto;
@@ -181,6 +181,10 @@ footer table ul {
 footer ul li {
     display: inline;
     padding-right: 10px;
+}
+
+footer p {
+    color: #2c5364;
 }
 
 /*************** Redes sociales ***************/
@@ -275,15 +279,21 @@ article a, main a {
 
 /************ Noticias ***************/
 
-.next {
+.next .prior {
     text-align: center;
-}
-
-.next a {
-    color: #eff1ff;
+    color: #dbdfff;
     text-shadow: 2px 2px #212421,
                1px 1px #212021;
     font-family: Verdana, sans-serif;
     font-size: 15px;
     font-weight: normal;
+}
+
+.next:hover, .prior:hover {
+    color: #b0d1f1;
+}
+
+.prior {
+    float: left;
+    margin-left: 270px;
 }
