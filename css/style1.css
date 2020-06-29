@@ -297,3 +297,20 @@ article a, main a {
     float: left;
     margin-left: 270px;
 }
+
+main h3 {
+    text-align: center;
+}
+
+/************* FF7 *****************/
+
+main table img {
+    height: 200px;
+    width: 190px;
+    border-radius: 7px;
+}
+
+main table {
+    margin-left: auto;
+    margin-right: auto;
+}
