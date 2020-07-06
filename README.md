@@ -3,6 +3,12 @@ Creación de una página web de prueba basada en Final Fantasy 7
 
 #Log de cambios
 
+6/07/20
+
+Noticia añadida
+
+Archivos de prueba de JavaScript
+
 2/07/20
 
 Noticias relacionadas
