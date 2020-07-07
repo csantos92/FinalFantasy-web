@@ -6,7 +6,7 @@ Creación de una página web de prueba basada en Final Fantasy 7
 
 **7/07/20**
 
--Funciones JavaScript añadidas (música y efectos)
+- Funciones JavaScript añadidas (música y efectos)
 
 **6/07/20**
 
