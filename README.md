@@ -1,7 +1,7 @@
 # FinalFantasy-web
 Creación de una página web de prueba basada en Final Fantasy 7
 
-#Log de cambios
+##Log de cambios
 
 
 **7/07/20**
