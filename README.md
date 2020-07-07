@@ -2,43 +2,43 @@
 Creación de una página web de prueba basada en Final Fantasy 7
 
 #Log de cambios
-**---------------------------------------------**
+
 
 **7/07/20**
 
-*Funciones JavaScript añadidas (música y efectos)
+-Funciones JavaScript añadidas (música y efectos)
 
 **6/07/20**
 
-*Noticia añadida
+-Noticia añadida
 
-*Archivos de prueba de JavaScript
+-Archivos de prueba de JavaScript
 
 **2/07/20**
 
-*Noticias relacionadas
+-Noticias relacionadas
 
-*Corregidos bugs visuales
+-Corregidos bugs visuales
 
 **30/06/20**
 
-*Vídeos
+-Vídeos
 
-*Bloques de redes sociales
+-Bloques de redes sociales
 
 **29/06/20**
 
-*Corrección de enlaces
+-Corrección de enlaces
 
-*Página sobre Final Fantasy de PSX con tablas de personajes
+-Página sobre Final Fantasy de PSX con tablas de personajes
 
 **28/06/20**
 
-*Bloque de registro de noticias
+-Bloque de registro de noticias
 
-*Enlaces de redes sociales se abre en otra pestaña
+-Enlaces de redes sociales se abre en otra pestaña
 
-*Corregidos algunos bugs visuales
+-Corregidos algunos bugs visuales
 
-*Cambio de algunos colores
+-Cambio de algunos colores
 
