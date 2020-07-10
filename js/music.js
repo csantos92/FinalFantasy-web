@@ -8,6 +8,8 @@ window.addEventListener('load', () => {
     var mute = false;
     var volume_img, mute_img;
     
+    console.log(url);
+    
     if(url.startsWith("index")){
         audio.src   = "media/audio/prelude.mp3";
         volume_img  = "images/icons/volume.png"
