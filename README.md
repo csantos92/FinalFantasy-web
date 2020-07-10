@@ -3,6 +3,13 @@ Creación de una página web de prueba basada en Final Fantasy 7
 
 ## Log de cambios
 
+**10/07/20**
+
+- Código JavaScript de música optimizado
+
+- Añadidas nuevas secciones
+
+- Añadido efecto glow
 
 **7/07/20**
 
