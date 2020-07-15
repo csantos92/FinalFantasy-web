@@ -1,5 +1,5 @@
 # FinalFantasy-web
-Creación de una página web de prueba basada en Final Fantasy 7
+Creación de una página web basada en Final Fantasy 7 utilizando HTML5, CSS3, JavaScript, jQuery 
 
 LIVE: https://www.csantosdev.com/projects/finalfantasy/
 
