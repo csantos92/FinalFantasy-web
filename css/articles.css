@@ -1,0 +1,33 @@
+/*********** Related news ************/
+
+.related-news h4 {
+    text-align: center;
+}
+
+.related-news table tr td h5 {
+    margin-left: 130px;
+    width: 230px;
+    text-align: center;
+    margin-top: -0.2px;
+}
+
+.related-news img {
+    width: 300px;
+    height: 150px;
+    margin-left: 100px;
+
+}
+
+.related-news a {
+    color: #9fe9f3;
+    text-decoration: none;
+}
+
+.related-news a:hover {
+    color: #2c5364;
+}
+
+.related-news img:hover {
+    transform: scale(1.55);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,28 @@
+/************* FF7 *****************/
+
+main table img {
+    height: 200px;
+    width: 190px;
+    padding: 45px;
+    border-radius: 7px;
+}
+
+main table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+fieldset {
+    background-color: #212421;
+    border-radius: 7px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/***** Pointer **********/
+
+.tabla tr td img {
+    cursor: pointer;
+} 
+

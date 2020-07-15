@@ -3,27 +3,25 @@
 window.addEventListener('load', () => {
     
     var music = document.querySelector("#music");
-    var url = location.href.replace(location.origin,'');
+    var url = location.href;
     var audio = new Audio();
     var mute = false;
     var volume_img, mute_img;
-    
-    console.log(url);
-    
-    if(url.startsWith("index")){
+
+    if(url.endsWith("/index.html") || url.startsWith("/")){
         audio.src   = "media/audio/prelude.mp3";
-        volume_img  = "images/icons/volume.png"
-        mute_img    = "images/icons/mute.png"
+        volume_img  = "media/images/icons/volume.png"
+        mute_img    = "media/images/icons/mute.png"
     }
-    else if(url.startsWith("noticias/n")){
-        audio.src   = "../../media/audio/prelude.mp3";
-        volume_img  = "../../images/icons/volume.png";
-        mute_img    = "../../images/icons/mute.png";
+    else if(url.endsWith("news.html") || url.includes("games")){
+        audio.src   = "../media/audio/prelude.mp3";
+        volume_img  = "../media/images/icons/volume.png";
+        mute_img    = "../media/images/icons/mute.png";
     }
-    else if(url.startsWith("noticias/2")){
+    else if(url.includes("2020")){
         audio.src   = "../../../media/audio/prelude.mp3";
-        volume_img  = "../../../images/icons/volume.png";
-        mute_img    = "../../../images/icons/mute.png";
+        volume_img  = "../../../media/images/icons/volume.png";
+        mute_img    = "../../../media/images/icons/mute.png";
     }
     
     //Play or stop music
