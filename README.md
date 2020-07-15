@@ -5,6 +5,10 @@ LIVE: https://www.csantosdev.com/projects/finalfantasy/
 
 ## Log de cambios
 
+**15/07/20**
+
+- Reestructuración de archivos y código
+
 **10/07/20**
 
 - Código JavaScript de música optimizado
