@@ -10,9 +10,12 @@
         <!-- Style Sheet -->
         <link rel="stylesheet" type="text/css" href="../css/theme.css">
         <link rel="stylesheet" type="text/css" href="../css/games.css">
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <!-- JS -->
-        <script type="text/javascript" src="../js/events.js"></script>
         <script type="text/javascript" src="../js/music.js"></script>
+        <script type="text/javascript" src="../js/ffvii-transitions.js"></script>
+    
     </head>
 
     <body>
@@ -35,18 +38,23 @@
 
         <main class="box">
 
+            <div id="show-video">
+                <h3>Limites de Antonio Banderas</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+
             <fieldset>
                 <legend><h3>Protagonistas</h3></legend>
-                <table class="tabla">
+                <table class="ff-table">
                     <tr>
                         <td>
-                            <img src="../media/images/ff7/cloudff7.gif" alt="cloud">                            
+                            <img id="cloud" src="../media/images/ff7/cloudff7.gif" alt="cloud">                            
                         </td>
                         <td>
-                            <img src="../media/images/ff7/barretff7.jpg" alt="barret">
+                            <img id="barret" src="../media/images/ff7/barretff7.jpg" alt="barret">
                         </td>
                         <td>
-                            <img src="../media/images/ff7/tifaff7.jpg" alt="tifa">
+                            <img id="tifa" src="../media/images/ff7/tifaff7.jpg" alt="tifa">
                         </td>
                     </tr>
     
@@ -64,10 +72,10 @@
     
                     <tr>
                         <td>
-                            <img src="../media/images/ff7/catsaithff7.jpg" alt="catsaith">
+                            <img src="../media/images/ff7/catsaithff7.jpg" alt="cait">
                         </td>
                         <td>
-                            <img src="../media/images/ff7/yuffieff7.jpg" alt="tuffie">
+                            <img src="../media/images/ff7/yuffieff7.jpg" alt="yuffie">
                         </td>
                         <td>
                             <img src="../media/images/ff7/vincentff7.jpg" alt="vincent">
@@ -97,5 +105,6 @@
 
             <p id="credits">Created by <a href="https://www.csantosdev.com" target="_blank">csantosdev</a></p>
         </footer>
+
     </body>
 </html>

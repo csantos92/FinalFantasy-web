@@ -3,7 +3,7 @@
 main table img {
     height: 200px;
     width: 190px;
-    padding: 45px;
+    margin: 45px;
     border-radius: 7px;
 }
 
@@ -18,11 +18,24 @@ fieldset {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 25px;
 }
 
 /***** Pointer **********/
 
-.tabla tr td img {
+.ff-table tr td img {
     cursor: pointer;
 } 
 
+/********* Slider *********/
+
+#show-video{
+    display: none;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#show-video iframe{
+    border-radius: 7px;
+}
