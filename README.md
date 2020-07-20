@@ -5,6 +5,10 @@ LIVE: https://www.csantosdev.com/projects/finalfantasy/
 
 ## Log de cambios
 
+**20/07/20**
+
+- Efectos jQuery añadidos
+
 **17/07/20**
 
 - Implementación de funciones JS y jQuery
