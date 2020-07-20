@@ -8,6 +8,7 @@ LIVE: https://www.csantosdev.com/projects/finalfantasy/
 **20/07/20**
 
 - Efectos jQuery añadidos
+- Rutas reasignadas
 
 **17/07/20**
 
