@@ -1,6 +1,6 @@
 /************* FF7 *****************/
 
-main table img {
+.ff-table img {
     height: 200px;
     width: 190px;
     margin: 45px;
@@ -21,12 +21,6 @@ fieldset {
     margin-bottom: 25px;
 }
 
-/***** Pointer **********/
-
-.ff-table tr td img {
-    cursor: pointer;
-} 
-
 /********* Slider *********/
 
 #show-video{
@@ -38,4 +32,23 @@ fieldset {
 
 #show-video iframe{
     border-radius: 7px;
+}
+
+/***** Pointer **********/
+
+.ff-table img, .ffremake-table img {
+    cursor: pointer;
+} 
+
+/********** FF7 Remake ********/
+
+.ffremake-table img {
+    height:500px;
+    width: 270px;
+    margin: 20px;
+    border-radius: 7px;
+}
+
+#video {
+    display: none;
 }
