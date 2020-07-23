@@ -5,6 +5,10 @@ LIVE: https://www.csantosdev.com/projects/finalfantasy/
 
 ## Log de cambios
 
+**22/07/20**
+
+- JS para efectos de la página Remake
+
 **20/07/20**
 
 - Efectos jQuery añadidos
