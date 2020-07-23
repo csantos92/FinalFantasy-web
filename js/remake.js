@@ -8,13 +8,19 @@ $(document).ready(function(){
     var barret = $("#barret");
     var tifa = $("#tifa");
     var aeris = $("#aeris");
-    var div = $("#video");
+    var div = $("#video-re");
+    var video = $("#video-re iframe");
+    var title = $("#video-re h3");
     var cloudOn, barretOn, tifaOn, aerisOn = false;
     var characters = [cloud, barret, tifa, aeris];
+    var url, text;
 
     //Functions
 
-    function showEffect(character){
+    function showEffect(character, url, text){
+
+        video.attr("src" ,url);
+        title.html(text);
 
         for (const iterator of characters) {
             if(iterator !== character){
@@ -47,7 +53,10 @@ $(document).ready(function(){
         cloud.click(function(){
 
             if (!cloudOn){
-                showEffect(cloud);
+                url = "https://www.youtube.com/embed/Zn-xa-0nyZE";
+                text = "Final Fantasy VII Remake Main Theme";
+
+                showEffect(cloud, url, text);
                 cloudOn = true;
             }
             else{   
@@ -59,7 +68,10 @@ $(document).ready(function(){
         barret.click(function(){
 
             if (!barretOn){
-                showEffect(barret);
+                url = "https://www.youtube.com/embed/lYpDBjSRe2M";
+                text = "Barret's Theme";
+
+                showEffect(barret, url, text);
                 barretOn = true;
             }
             else{   
@@ -71,7 +83,10 @@ $(document).ready(function(){
         tifa.click(function(){
 
             if (!tifaOn){
-                showEffect(tifa);
+                url = "https://www.youtube.com/embed/NJ9n-Ryjx94";
+                text = "Tifa's Theme";
+
+                showEffect(tifa, url, text);
                 tifaOn = true;
             }
             else{   
@@ -83,7 +98,10 @@ $(document).ready(function(){
         aeris.click(function(){
 
             if (!aerisOn){
-                showEffect(aeris);
+                url = "https://www.youtube.com/embed/qCrCp-NLXKs";
+                text = "Aerith's Theme";
+
+                showEffect(aeris, url, text);
                 aerisOn = true;
             }
             else{   
