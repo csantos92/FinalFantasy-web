@@ -1,0 +1,46 @@
+#music-controller{
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#music-controller img{
+    cursor: pointer;
+}
+
+#song-title{
+    display: block;
+    text-align: center;
+    width: 600px;
+    margin: 0px auto;
+}
+
+#song-title h1{
+    color: rgb(11, 241, 230);
+    text-shadow: 0px 0px 3px lightblue;
+}
+
+#song-title p{
+    display: none;
+    animation-name: text-effect;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0,0,0,0);
+    text-align: start;
+    text-shadow: none;
+}
+
+@keyframes text-effect{
+    0%{
+        margin-left: 0%;
+        color: #0454be
+    }
+    50%{
+        margin-left: 25%;
+        color: rgb(170, 188, 219);
+    }
+    100%{
+        margin-left: 50%;
+        color: #0454be;
+    }
+}

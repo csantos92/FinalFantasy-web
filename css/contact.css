@@ -1,0 +1,55 @@
+main h2{
+    text-align: center;
+}
+
+#contact{
+    padding: 20px;
+    width: 30%;
+    margin: 0px auto;
+}
+
+#contact *{
+    display: block;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+#contact textarea
+{
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+}
+
+input[type="submit"]{
+    margin: 0px auto;
+    margin-bottom: 40px;
+    padding: 10px;
+    background-color: rgb(48, 134, 158);
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(12, 82, 102);
+}
+
+#show{
+    display: none;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: -30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    background-color: greenyellow;
+    width: 400px;
+    padding: 5px;
+    color: black;
+    text-shadow: 0px 0px 3px white;
+    border: 1px solid white;
+}
+
+
+

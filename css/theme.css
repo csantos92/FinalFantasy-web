@@ -62,9 +62,15 @@ nav li a {
     padding: 8px;
 }
 
-nav li:not(:last-child) {
+nav li{
     border-right: 1px solid white;
 }
+
+nav li:nth-child(6){
+    border-right: unset;
+}
+
+
 
 /**************** Contenedor de cuerpo *****************/
 
@@ -112,7 +118,7 @@ footer ul li {
 }
 
 footer p {
-    color: #2c5364;
+    color: #bbcbd1;
 }
 
 /*************** Redes sociales ***************/

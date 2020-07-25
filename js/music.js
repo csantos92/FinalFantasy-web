@@ -13,7 +13,7 @@ window.addEventListener('load', () => {
         volume_img  = "media/images/icons/volume.png"
         mute_img    = "media/images/icons/mute.png"
     }
-    else if(url.endsWith("news.html") || url.includes("games")){
+    else if(url.endsWith("news.html") || url.includes("games") || url.includes("multi") || url.includes("contact")){
         audio.src   = "../media/audio/prelude.mp3";
         volume_img  = "../media/images/icons/volume.png";
         mute_img    = "../media/images/icons/mute.png";
