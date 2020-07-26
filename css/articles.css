@@ -4,18 +4,30 @@
     text-align: center;
 }
 
+.related-news table{
+    display: block;
+    width: 100%;
+}
+
 .related-news table tr td h5 {
-    margin-left: 130px;
-    width: 230px;
     text-align: center;
     margin-top: -0.2px;
+    display: block;
+    width: 80%;
 }
 
 .related-news img {
-    width: 300px;
-    height: 150px;
-    margin-left: 100px;
+    width: 80%;
+    height: 150px;  
+    text-align: center;
+}
 
+.related-news #img-fix{
+    width: 100%;
+}
+
+.related-news #text-fix{
+    margin-left: 9%;
 }
 
 .related-news a {
@@ -30,4 +42,10 @@
 .related-news img:hover {
     transform: scale(1.55);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#center-table{
+    display: block;
+    margin: 0px auto;
+    width: 79%;
 }
