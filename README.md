@@ -3,7 +3,15 @@ Creación de una página web basada en Final Fantasy 7 utilizando HTML5, CSS3, J
 
 LIVE: https://www.csantosdev.com/projects/finalfantasy/
 
+<strong>Estado: Finalizado.</strong>
+
 ## Log de cambios
+
+**25/07/20**
+
+- Implementación de galería de imágenes
+- Implementación de reproductor de música con distintas pistas
+- Implementación de formulario de contacto
 
 **22/07/20**
 
