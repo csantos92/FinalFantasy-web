@@ -47,20 +47,16 @@ fieldset {
 /********** FF7 Remake ********/
 
 #wrapper{
-    width: 80%;
+    width: 100%;
     padding: 0;
-    margin: 0px auto;
-}
-
-#wrapper td{
     margin: 0px auto;
 }
 
 .ffremake-table img {
     height:450px;
-    width: 100%;
+    width: 200px;
     border-radius: 7px;
-    margin-right: 80px;
+    margin: 20px;
 }
 
 .ffremake-table img:hover{

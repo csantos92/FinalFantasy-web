@@ -10,6 +10,8 @@
         <!-- Style Sheet -->
         <link rel="stylesheet" type="text/css" href="../css/theme.css">
         <link rel="stylesheet" type="text/css" href="../css/contact.css">
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
         <!-- JS -->
         <script type="text/javascript" src="../js/music.js"></script>
         <script type="text/javascript" src="../js/contact.js"></script>
@@ -36,22 +38,24 @@
 
             <h2>Formulario de contacto</h2>
 
-            <form id="contact">
-                <label>Nombre</label>
-                <input type="text" name="name" placeholder="Tu nombre" required/>
-
-                <label>Email</label>
-                <input type="email" name="email" placeholder="Tu email" required/>
-
-                <label>Mensaje</label>
-                <textarea name="textarea" placeholder="Tu mensaje" required></textarea>
-
-                <input id="send" type="submit" value="Enviar">
-            </form>
-
-            <span id="show">
-                <p>¡Formulario enviado con éxito!</p>
-            </span>
+            <div id="contact-wrapper">
+                <form id="contact">
+                    <label>Nombre</label>
+                    <input type="text" name="name" placeholder="Tu nombre" required/>
+    
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Tu email" required/>
+    
+                    <label>Mensaje</label>
+                    <textarea name="textarea" placeholder="Tu mensaje" required></textarea>
+    
+                    <input type="submit" value="Enviar">
+                </form>
+    
+                <span id="show">
+                    <p>¡Formulario enviado con éxito!</p>
+                </span>
+            </div>
         </main>
         
         <footer class="box">

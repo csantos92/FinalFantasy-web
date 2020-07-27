@@ -1,12 +1,11 @@
 'use strict'
 
-window.addEventListener('load', () => {
-    var button = document.querySelector('#send');
-    var span = document.querySelector('#show');
+$(document).ready(function(){
+    var show = $('#show');
+    var form = $('#contact');
 
-
-    button.addEventListener('click', (e) => {
+    form.submit(function(e) {
         e.preventDefault();
-        span.style.display = "block";
+        show.fadeIn();
     });
 });

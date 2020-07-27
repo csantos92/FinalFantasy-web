@@ -1,6 +1,6 @@
 html {
     height: 100%;
-    min-width: 1300px;
+    min-width: 1380px;
 }
 
 body {
@@ -103,9 +103,10 @@ footer {
     color: #2c5364;
     position: relative;
     width: 98.20%;
+    height: 120px;
     margin: 10px;
     display: block;
-    overflow: auto;
+    overflow: hidden;
 }
 
 footer table {
@@ -122,8 +123,9 @@ footer ul li {
     padding-right: 10px;
 }
 
-footer p {
+#credits{
     color: #bbcbd1;
+    margin-top: 0px;
 }
 
 /*************** Redes sociales ***************/

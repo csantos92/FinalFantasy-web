@@ -7,6 +7,10 @@ article {
     overflow: auto;
 }
 
+main h3 {
+    text-align: center;
+}
+
 .grid {
     grid-template-columns: 100px 50px 100px;
     grid-template-rows: 80px auto 80px;
@@ -20,10 +24,6 @@ article {
     margin-top: -30px;
 }
 
-.next {
-    text-align: center;
-}
-
 fieldset {
     background-color: #212421;
     border-radius: 7px;
@@ -32,27 +32,25 @@ fieldset {
     margin-right: auto;
 }
 
-/************ Noticias ***************/
+/************ Next/Prior news ***************/
 
-.next .prior {
-    text-align: center;
-    color: #dbdfff;
-    text-shadow: 2px 2px #212421,
-               1px 1px #212021;
-    font-family: Verdana, sans-serif;
-    font-size: 15px;
-    font-weight: normal;
-}
-
-.next:hover, .prior:hover {
-    color: #b0d1f1;
+.prior, .next{
+    display: block;
+    width: 200px;
+    margin: 0px auto;
+    margin-bottom: 10px;
 }
 
 .prior {
     float: left;
-    margin-left: 210px;
+    margin-left: 10%;
 }
 
-main h3 {
-    text-align: center;
+.next {
+    margin-right: 10%;
+    float: right;
+}
+
+.next:hover, .prior:hover {
+    color: #b0d1f1;
 }
