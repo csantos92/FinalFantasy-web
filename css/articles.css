@@ -1,33 +1,31 @@
 /*********** Related news ************/
 
-.related-news h4 {
-    text-align: center;
+#center-table{
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    width: 90%;
 }
 
 .related-news table{
-    display: block;
-    width: 100%;
+    margin: 0px auto;
 }
 
 .related-news table tr td h5 {
     text-align: center;
     margin-top: -0.2px;
-    display: block;
     width: 80%;
+    display: block;
+    margin: 0px auto;
 }
 
-.related-news img {
-    width: 80%;
-    height: 150px;  
+.related-news h4 {
     text-align: center;
 }
 
-.related-news #img-fix{
-    width: 100%;
-}
-
-.related-news #text-fix{
-    margin-left: 9%;
+.related-news table tr td{
+    width: 33%;
+    margin: 0px;
 }
 
 .related-news a {
@@ -39,13 +37,16 @@
     color: #2c5364;
 }
 
+.related-news img {
+    width: 250px;
+    height: 150px;
+    display: block;
+    margin: 0px auto;
+}
+
 .related-news img:hover {
     transform: scale(1.55);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-#center-table{
-    display: block;
-    margin: 0px auto;
-    width: 79%;
-}
+
