@@ -1,5 +1,5 @@
 # FinalFantasy-web
 
-Página web estática basada en Final Fantasy 7 utilizando HTML5, CSS3, JavaScript, jQuery 
+Static website made with HTML5, CSS3, JavaScript and jQuery 
 
 <strong>LIVE: https://www.csantosdev.com/projects/finalfantasy/</strong>
